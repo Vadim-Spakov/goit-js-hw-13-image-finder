@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  
+    <title>Search for memories</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div id="root">
+      <p class='quote'>Photography is the materialization of memory...</p>
+      <form class="search-form" id="search-form">
+        <input  name="query" class="search-input" type="text" name="query" autocomplete="off" placeholder="Search photos..."/>
+        <button type="submit" class="search-btn btn">Search</button>
+      </form>
+<p class='no-result is-hidden'>Sorry, no results were found.</p>
+        <ul class="gallery">
+          <!-- Список <li> с карточками изображений -->
+        </ul>
+
+        <button type="button" class="btn is-hidden" data-action="load-more">Load more</button>
+    </div>
+  </body>
+</html>
